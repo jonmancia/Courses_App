@@ -1,17 +1,26 @@
-	
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">	
+<link rel="stylesheet" href="<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<div class="container">
 <style>
 	body {
 		width: 960px;
 		margin: 0 auto;
 		text-align: center;
-		margin-top: 30vh;
+		margin-top: 25vh;
 	}
 </style>
+	<div class="card-panel hoverable">
 	<% if(course) {%>
-	<h1> Learn <%= course.course_name %> Now!</h1>
+	<h1 class="blue-text"> Learn <%= course.course_name %> Now!</h1>
 	<h3> by <em><%= course.instructor %></em> </h3>
 	<h5> Starts <%= new Date(2017, 5,20) %> </h5>
+	<h5> Rated 5 stars</h5>
 	<h3> <%= course.description %></h3>
 	<% } else { %>
 	<h1> Course not found </h1>
 	<% } %>
+
+	</div>
+</div>
