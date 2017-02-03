@@ -1,0 +1,19 @@
+<table>
+	<thead>
+		<th>Course</th>
+		<th>Description</th>
+		<th>Instructor</th>
+	</thead>
+	<tbody>
+		<% courses.forEach( function(course){ %>
+
+		<tr>
+			<td> <a href = <%= '/courses/' + course.id %> >Show</a> </td>
+			<td> <%= course.course_name %> </td>
+			<td> <%= course.description %> </td>
+			<td> <%= course.instructor %> </td>
+		</tr>
+
+		<%	}); %>
+	</tbody>
+</table>

@@ -1,0 +1,34 @@
+[  
+  {
+      "id": 1,
+      "course_name": "React",
+      "num_students": 20,
+      "description": "Learn to code React",
+      "number_of_tas": 2,
+      "instructor": "Dave"
+  },
+  {
+      "id": 2,
+      "course_name": "Ruby",
+      "num_students": 10,
+      "description": "Backend Coding",
+      "number_of_tas": 12,
+      "instructor": "Dorothy"
+  },
+  {
+      "id": 3,
+      "course_name": "Node",
+      "num_students": 1,
+      "description": "Learn to install packages easily",
+      "number_of_tas": 3,
+      "instructor": "Sean"
+  },
+  {
+      "id": 4,
+      "course_name": "Express",
+      "num_students": 11,
+      "description": "Web servers development",
+      "number_of_tas": 1,
+      "instructor": "Jake"
+  }
+]

@@ -1,0 +1,17 @@
+	
+<style>
+	body {
+		width: 960px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 30vh;
+	}
+</style>
+	<% if(course) {%>
+	<h1> Learn <%= course.course_name %> Now!</h1>
+	<h3> by <em><%= course.instructor %></em> </h3>
+	<h5> Starts <%= new Date(2017, 5,20) %> </h5>
+	<h3> <%= course.description %></h3>
+	<% } else { %>
+	<h1> Course not found </h1>
+	<% } %>
